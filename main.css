@@ -1,0 +1,110 @@
+body {
+	background-color: hsl(218, 41%, 15%);
+	background-image: radial-gradient(
+			650px circle at 0% 0%,
+			hsl(218, 41%, 35%) 15%,
+			hsl(218, 41%, 30%) 35%,
+			hsl(218, 41%, 20%) 75%,
+			hsl(218, 41%, 19%) 80%,
+			transparent 100%
+	),
+	radial-gradient(
+			1250px circle at 100% 100%,
+			hsl(218, 41%, 45%) 15%,
+			hsl(218, 41%, 30%) 35%,
+			hsl(218, 41%, 20%) 75%,
+			hsl(218, 41%, 19%) 80%,
+			transparent 100%
+	);
+}
+
+h1
+{
+	font-size: 36px;
+	font-weight: 400;
+	color: #ab4ae3;
+	margin: 20px;
+}
+
+.jumpers
+{
+	text-align: center;
+}
+.jumpers img
+{
+	max-width: 100%;
+	height: auto;
+}
+
+.jumpers p
+{
+	margin-bottom: 30px;
+}
+
+.jumpers figcaption
+{
+	margin-top: 8px;
+}
+
+.navbar-nav li:hover>.dropdown-menu
+{
+	display: block;
+}
+
+.navbar
+{
+	min-height: 57px;
+}
+
+.bg-jumpers
+{
+	background-color: #44006b !important;
+}
+#maincontent
+{
+	color: black !important;
+}
+.wpis
+{
+	text-align: justify;
+	font-size: 16px;
+	padding: 30px;
+	margin-bottom: 40px;
+}
+.list-group-item-dark
+{
+	background-color: #373a3d;
+	color: white;
+}
+.active
+{
+	background-color: #ad1fff !important;
+	border-color: #ad1fff !important;
+}
+.list-group-item-dark:hover{
+	background-color: #6c757d !important;
+	color: #ab4ae3 !important;
+}
+.list-group
+{
+	text-align: center;
+}
+@media (max-width: 575px)
+{
+	.wpis
+	{
+		margin: 40px 20px;
+		text-align: left;
+		font-size: 15px;
+	}
+	.float-end, .float-start
+	{
+		max-width: 50%;
+	}
+	.blockquote {
+		font-size: 17px;
+	}
+}
+html, body {
+	scroll-behavior: smooth;
+}

@@ -1,0 +1,140 @@
+body {
+    height: 100%;
+    font-size: 1rem;
+}
+
+.gradient {
+    background: rgb(0, 97, 242);
+    background: linear-gradient(
+            135deg,
+            rgba(0, 97, 242, 1) 0%,
+            rgba(105, 0, 199, 1) 100%
+    );
+}
+
+.page-header {
+    font-size: 1.25rem;
+    color: #fff;
+}
+
+.feature {
+    color: #fff;
+}
+
+.feature ul {
+    padding-left: 2rem;
+    list-style-type: none;
+}
+
+.feature ul li {
+    padding-left: 2rem;
+    background-image: url("https://github.com/mdbootstrap/Bootstrap-5-Landing-Page-Tutorial/tree/master/final-html/img");
+    background-repeat: no-repeat;
+    line-height: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.icon {
+    color: #fff;
+    height: 5rem;
+    width: 5rem;
+    font-size: 1.75rem;
+    border-radius: 100%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.gallery {
+    background: transparent url("polaroid2.png") fixed no-repeat center center;
+}
+
+.gallery img {
+    border-radius: 5%;
+}
+
+.services {
+    color: #fff;
+}
+
+footer {
+    color: #fff;
+    font-size: 1rem;
+    margin: 0;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+h3{
+    color: white;
+}
+#tekstNaCiemnymTle{
+    color: white;
+}
+.box{
+    margin-top: 80px;
+    box-shadow: -1px 1px 40px 10px black;
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 15px;
+}
+.content {
+    background: #000;
+    height: 100vh;
+    overflow: hidden;
+}
+.content h1 {
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-transform: uppercase;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    font-size: 80px;
+    text-align: center;
+}
+.box1 ul li {
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    list-style: none;
+    opacity: 0;
+    background: radial-gradient(deepskyblue, transparent, transparent);
+    bottom: 0;
+    left: 10vw;
+    animation: animate 15s linear infinite;
+}
+.box1 ul li:nth-child(2) {
+    left: 36vw;
+    animation-delay: 2s;
+}
+.box1 ul li:nth-child(3) {
+    left: 22vw;
+    animation-delay: 4s;
+}
+.box1 ul li:nth-child(4) {
+    left: 56vw;
+    animation-delay: 6s;
+}
+.box1 ul li:nth-child(5) {
+    left: 76vw;
+    animation-delay: 4s;
+}
+.box1 ul li:nth-child(6) {
+    left: 80vw;
+    animation-delay: 8s;
+}
+@keyframes animate {
+    0% {
+        transform: scale(0);
+        opacity: 1;
+        bottom: 0;
+    }
+    100% {
+        transform: scale(10);
+        opacity: 0;
+        bottom: 100vh;
+    }
+}

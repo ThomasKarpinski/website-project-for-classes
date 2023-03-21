@@ -1,0 +1,84 @@
+main .pricing-area{
+    padding: 3% 0;
+    text-align: center;
+}
+main .single-pricing{
+    background: #fcfcfc;
+    box-shadow: rgba(17,12,46,0.15) 0 48px 100px 0;
+    border-radius: 20px;
+}
+main .deal-type{
+    background: linear-gradient(to bottom, #44006b, #ab4ae3);
+    padding: 15px 0;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: 2px;
+    color: #fff;
+}
+main .deal-amount{
+    clip-path: circle(81.1% at 50% 0);
+    background: linear-gradient(to right, #44006b, #ab4ae3);
+    padding: 25px 0;
+    color: #fff;
+}
+main .price .money{
+    font-size: 60px;
+    font-weight: 900;
+}
+main .price .money sup{
+    font-size: 64px;
+    font-weight: 500;
+}
+main .single-deal{
+    padding: 15px 0;
+    list-style: none;
+}
+main .single-deal li{
+    font-size: 18px;
+    font-family: Roboto, serif;
+    padding: 10px 0;
+}
+main a{
+    background: linear-gradient(to right, #44006b, #ab4ae3);
+    border: none;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    padding: 10px 50px;
+    color: #fff;
+}
+main .btn{
+    color: white;
+    width: 200px;
+    height: 75px;
+    font-size: 20px;
+}
+main .single-pricing:hover{
+    transform: scale(1.05);
+}
+main @media (max-width: 767px) {
+    .single-pricing{
+        margin-bottom: 30px;
+    }
+}
+h2, p{
+    color: white;
+}
+.przycisk{
+    background: linear-gradient(to right, #44006b, #ab4ae3);
+    border: none;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    padding: 10px 50px;
+    color: #fff;
+}
+.karta1{
+    margin-top: 40px;
+    box-shadow: -1px 1px 60px 10px black;
+    background: rgba(0, 0, 0, 0.4);
+}
+.karta1:hover{
+    transform: scale(1.05);
+}
